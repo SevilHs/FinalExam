@@ -1,0 +1,80 @@
+.fav-sec{
+    margin-top: 250px;
+    .cards-row {
+        --bs-gutter-x: 0;
+        // column-gap: 20px;
+        box-sizing: border-box;
+        margin: 50px 0;
+        .furnish-card-div{
+          padding: 10px;
+          .furnish-card {
+            margin-bottom: 30px;
+            padding: 35px;
+            position: relative;
+              overflow: hidden;
+            &:hover {
+              .actions {
+                transition: 1s;
+                transform: translateY(-30%);
+                transition-timing-function: ease-out;
+              }
+            }
+            .actions {
+              position: absolute;
+              left: 0;
+              width: 100%;
+              @include dFlex();
+              gap: 20px;
+              transition: 1s;
+              transform: translateY(140%);
+              transition-timing-function: ease-in;
+              a,
+              i {
+                padding: 10px;
+                color: $color-white;
+                background-color: #d1b54a;
+                border-radius: 5px;
+                cursor: pointer;
+              }
+            }
+            .img-div {
+              display: inline-block;
+              padding: 13px;
+              border-radius: 100%;
+            }
+            .img-div-1 {
+              background-color: #cb9696;
+            }
+            .img-div-2 {
+              background-color: #8bbd8e;
+            }
+            .img-div-3 {
+              background-color: #d1b54a;
+            }
+            .img-div-4 {
+              background-color: #d29a61;
+            }
+            h5 {
+              margin: 15px 0;
+            }
+            p {
+              color: gray;
+              font-size: 17px;
+            }
+          }
+          .furnish-card-1 {
+            background-color: #f5ebeb;
+          }
+          .furnish-card-2 {
+            background-color: #dcebdd;
+          }
+          .furnish-card-3 {
+            background-color: #f5efd8;
+          }
+          .furnish-card-4 {
+            background-color: #f4e6d8;
+          }
+        }
+        
+      }
+}

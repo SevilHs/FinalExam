@@ -1,0 +1,62 @@
+.customers-sec{
+    padding: 3%;
+    text-align: center;
+    background-color: #F7F7F7;
+    .customer-text{
+        color: gray;
+    }
+    h1{
+        color: $primary-color;
+    }
+    .customers-sec-div{
+        margin: 40px 0;
+        .customer-card{
+            text-align: start;
+            background-color: #fff;
+            padding: 30px;
+            p{
+                color: gray;
+                font-size: 18px;
+            }
+            .img-text-customer{
+                display: flex;
+                .img-div-customer{
+                    // background-image: url(../images/person_1.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 100%;
+                    margin-right: 20px;
+                }
+                .img-div-customer-1{
+                    background-image: url(../images/person_1.jpg);
+                }
+                .img-div-customer-2{
+                    background-image: url(../images/person_2.jpg);
+                }
+                .img-div-customer-3{
+                    background-image: url(../images/person_3.jpg);
+                }
+                h4{
+                    color: goldenrod;
+                }
+            }
+            &:hover{
+                background-color: goldenrod;
+                p{
+                    color: #fff;
+
+                }
+                .img-text-customer{
+                    h4,h5{
+                        color: #fff;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+}

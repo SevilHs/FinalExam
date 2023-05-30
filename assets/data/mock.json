@@ -1,0 +1,78 @@
+{
+  "furnish": [
+    {
+      "id": 1,
+      "title": "Amazing Deals ",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/handshake (4).png"
+    },
+    {
+      "id": 2,
+      "title": "Quality Furniture",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/kitchen.png"
+    },
+    {
+      "id": 3,
+      "title": "Modern Design",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/living-room (1).png"
+    },
+    {
+      "id": 4,
+      "title": "Best Support",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/kitchen.png"
+    },
+    {
+      "id": 5,
+      "title": "Amazing Deals2",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/handshake (4).png"
+    },
+    {
+      "id": 6,
+      "title": "Quality Furniture2",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/kitchen.png"
+    },
+    {
+      "id": 7,
+      "title": "Modern Design2",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/living-room (1).png"
+    },
+    {
+      "id": 8,
+      "title": "Best Support2",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/kitchen.png"
+    },
+    {
+      "title": "s",
+      "description": "s",
+      "photo": "./assets/images/kitchen.png",
+      "id": 9
+    }
+  ],
+  "furnishfav": [
+    {
+      "id": 2,
+      "title": "Quality Furniture",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/kitchen.png"
+    },
+    {
+      "id": 3,
+      "title": "Modern Design",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/living-room (1).png"
+    },
+    {
+      "id": 4,
+      "title": "Best Support",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "photo": "./assets/images/kitchen.png"
+    }
+  ]
+}

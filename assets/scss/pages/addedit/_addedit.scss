@@ -1,0 +1,32 @@
+.add-header{
+    position: fixed;
+    background-color: #efbbbb;
+    top: 0;
+}
+.add-row{
+    margin-top: 200px;
+    height: 60vh;
+    h1{
+        color: #a9cba2;
+    }
+    form{
+        label{
+            color: #636161;
+        }
+        input{
+            border:1px solid #cb9696;
+            &:focus{
+                box-shadow: 0 0 12px 5px #cb9696;   
+                border: none;
+            }
+        }
+        button {
+            background-color: #cb9696;
+            color: $color-white;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+          }
+    }
+
+}
