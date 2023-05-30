@@ -57,10 +57,10 @@
         }
     }
     @media only screen and (max-width:768px){
-        .row{
-            .hero-col-empty{
-                display: none;
-            }
+        .hero-text{
+            // align-items: center;
+            padding: 70px;
+            width: 90%;
         }
     }
 }

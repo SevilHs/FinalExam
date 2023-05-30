@@ -139,8 +139,9 @@ footer .footer a {
   background-position: center;
 }
 @media only screen and (max-width: 768px) {
-  .hero-sec .row .hero-col-empty {
-    display: none;
+  .hero-sec .hero-text {
+    padding: 70px;
+    width: 90%;
   }
 }
 
@@ -295,7 +296,7 @@ footer .footer a {
 }
 
 .customers-sec {
-  padding: 3%;
+  padding: 5%;
   text-align: center;
   background-color: #F7F7F7;
 }
@@ -312,6 +313,7 @@ footer .footer a {
   text-align: start;
   background-color: #fff;
   padding: 30px;
+  margin-top: 30px;
 }
 .customers-sec .customers-sec-div .customer-card p {
   color: gray;
@@ -360,11 +362,14 @@ footer .footer a {
 }
 .blog-sec .blog-sec-div .blog-card-div .blog-card {
   height: 300px;
+  margin-bottom: 30px;
 }
 .blog-sec .blog-sec-div .blog-card-div .blog-card .blog-card-img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  max-width: 700px;
+  height: 300px;
 }
 .blog-sec .blog-sec-div .blog-card-div .blog-card .blog-card-img-1 {
   background-image: url(../images/image_1.jpg);
@@ -394,6 +399,11 @@ footer .footer a {
 }
 .blog-sec .blog-sec-div .blog-card-div .blog-card .blog-card-text p {
   color: gray;
+}
+@media only screen and (max-width: 768px) {
+  .blog-sec .blog-sec-div .blog-card-div .blog-card {
+    margin-bottom: 200px;
+  }
 }
 
 .add-header {

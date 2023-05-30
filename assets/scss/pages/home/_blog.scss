@@ -6,10 +6,13 @@
     .blog-card-div {
         .blog-card {
           height: 300px;
+          margin-bottom: 30px;
           .blog-card-img {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            max-width: 700px;
+            height: 300px;
           }
           .blog-card-img-1{
             background-image: url(../images/image_1.jpg);
@@ -47,5 +50,13 @@
         }
       }
   }
-  
+  @media only screen and (max-width:768px){
+    .blog-sec-div{
+      .blog-card-div{
+        .blog-card{
+          margin-bottom: 200px;
+        }
+      }
+    }
+  }
 }
